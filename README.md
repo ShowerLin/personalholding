@@ -8,7 +8,7 @@ InvestApp is a local-first, mobile-friendly web app / PWA for consolidating hold
 - Add, edit, and delete holdings manually.
 - Add and delete broker accounts manually.
 - Import holdings with the standard CSV/XLSX template.
-- Load a hosted static holdings file from `web/data/holdings.csv`.
+- Load a hosted static holdings file from `docs/data/holdings.csv`.
 - Preview and validate imports before saving.
 - Append to or replace the current portfolio.
 - Switch between Personal and Official portfolio spaces without reinstalling the app.
@@ -35,7 +35,7 @@ as_of_date, market, isin, notes
 From this folder:
 
 ```bash
-python3 -m http.server 4173 -d web
+python3 -m http.server 4173 -d docs
 ```
 
 Then open:
@@ -49,7 +49,7 @@ http://127.0.0.1:4173
 For a GitHub Pages public demo, edit:
 
 ```text
-web/data/holdings.csv
+docs/data/holdings.csv
 ```
 
 When the page opens, the app fetches that file and loads it into the `Official` portfolio space. Visitors can interact with the page, but their edits only affect their own browser storage; they do not change the CSV in GitHub.
