@@ -54,6 +54,22 @@ docs/data/holdings.csv
 
 When the page opens, the app fetches that file and loads it into the `Official` portfolio space. Visitors can interact with the page, but their edits only affect their own browser storage; they do not change the CSV in GitHub.
 
+## GitHub Pages
+
+Use GitHub's branch-based Pages hosting:
+
+```text
+Settings > Pages > Build and deployment > Source: Deploy from a branch
+Branch: main
+Folder: /docs
+```
+
+The public site URL is:
+
+```text
+https://showerlin.github.io/personalholding/
+```
+
 ## Good Next Steps
 
 - Add broker-specific import presets.
