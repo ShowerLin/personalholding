@@ -1,9 +1,6 @@
 # InvestApp
 
-InvestApp has two prototypes for consolidating holdings across broker accounts:
-
-- `InvestApp.xcodeproj`: native SwiftUI iOS prototype.
-- `web/`: local-first mobile-friendly web app / PWA.
+InvestApp is a local-first, mobile-friendly web app / PWA for consolidating holdings across broker accounts.
 
 ## Web App Scope
 
